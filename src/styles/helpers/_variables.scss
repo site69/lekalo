@@ -1,0 +1,68 @@
+// $susy: (
+//   columns: 16,
+//   gutters: 30/66,
+//   output: float,
+//   gutter-position: inside,
+// );
+$susy: (
+	flow: ltr,
+	math: fluid,
+	output: float,
+	gutter-position: inside,
+	container: auto,
+	container-position: center,
+	columns: 12,
+	gutters: 0.441,
+	column-width: false,
+	global-box-sizing: content-box,
+	last-flow: to
+);
+
+// Breakpoints
+$xs: 460px;
+$sm: 540px;
+$md: 760px;
+$lg: 960px;
+$xl: 1200px;
+$xxl: 1280px;
+
+// Colors
+$text-green-1: #343634;
+$text-green-2: #343634;
+$text-green-3: #343634;
+$text-green-4: #343634;
+
+//Font
+//$font-base: 'ubuntu', 'Helvetica', sans-serif;
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// $base-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+//$text-font-stack: 'ptsans', 'Helvetica', sans-serif;
+//$text-font-stack: 'ptsans', 'Helvetica', sans-serif;
+
+
+/// Container's maximum width
+/// @type Length
+//$max-width: 1180px !default;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+/*$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+) !default;
+*/
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+//$base-url: '/assets/' !default;
